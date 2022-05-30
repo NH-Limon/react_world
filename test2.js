@@ -87,37 +87,37 @@
 
 
 
-class First {
-    constructor(a, b) {
-        this.a = a;
-        this.b = b;
-        console.log("This is from the constructor class of First class");
-    }
+// class First {
+//     constructor(a, b) {
+//         this.a = a;
+//         this.b = b;
+//         console.log("This is from the constructor class of First class");
+//     }
 
-    sum(){
-        return this.a + this.b;
-    }
+//     sum(){
+//         return this.a + this.b;
+//     }
 
-    division(){
-        return this.a / this.b;
-    }
-}
+//     division(){
+//         return this.a / this.b;
+//     }
+// }
 
 
-class Second extends First {
-    constructor(a, b) {
-        super(a, b);
-        console.log("This is from the constructor of the Second class")
-    }
-    gettingInfoOfFirstClass(){
-        console.log(super.a);
-        console.log(super.b);
-        console.log(super.sum())
-        console.log(super.division())
-    }
-}
+// class Second extends First {
+//     constructor(a, b) {
+//         super(a, b);
+//         console.log("This is from the constructor of the Second class")
+//     }
+//     gettingInfoOfFirstClass(){
+//         console.log(super.a);
+//         console.log(super.b);
+//         console.log(super.sum())
+//         console.log(super.division())
+//     }
+// }
 
-const firstObj = new First(10,5);
-const secondObj = new Second(20,4);
-console.log(firstObj.a, firstObj.b, firstObj.sum(), firstObj.division());
-console.log(secondObj.a, secondObj.b, secondObj.sum(), secondObj.division());
+// const firstObj = new First(10,5);
+// const secondObj = new Second(20,4);
+// console.log(firstObj.a, firstObj.b, firstObj.sum(), firstObj.division());
+// console.log(secondObj.a, secondObj.b, secondObj.sum(), secondObj.division());
